@@ -129,6 +129,7 @@ class Result extends React.Component {
           <MaterialTable
             options={{
               exportButton: true,
+              exportAllData: true,
               searchFieldVariant: "outlined",
               searchFieldStyle: { height: 47 },
             }}
