@@ -1,45 +1,25 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
-
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
 ### How do I get set up? ###
 
-* Summary of set up
+* Dependencies
+
+  **This project only support Python 3.X**
 
   ```python
-  pip install flask
-  ```
-
-  To start server:
-
-  ```python
-  python -m gsa_server
+  pip install --upgrade pip
+  pip install -r requirements.txt
   ```
 
 * Configuration
 
-* Dependencies
+  Put model file under `gsa_server/resources/xlnet_6epoch_3e-5`
 
-* Database configuration
+* To start server:
 
-* How to run tests
-
-* Deployment instructions
-
-  * URL path configuration are in `gsa_server/view.py`
-  * All the support files, e.g model file, should put under `gsa_server/resources/`
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
+  ```python
+  python -m gsa_server
+  ```
 
 ### Who do I talk to? ###
 
@@ -47,4 +27,4 @@ This README would normally document whatever steps are necessary to get your app
 
   bohan.niu@precise-soft.com
 
-* Other community or team contact
+
